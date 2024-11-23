@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.about-us {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#p-title{
+    font-size: 1.2rem;
+}
+
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.intro {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.content h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.company-history, .team-section, .commitment {
+    margin-bottom: 40px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    max-width: 200px;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 14px;
+    color: #555;
+}
+
+.gradient-text {
+  font-size: 48px; 
+  font-weight: bold; 
+  background: linear-gradient(to right, #7d77d3, #feb47b); 
+  /* -webkit-background-clip: text;  */
+  -webkit-text-fill-color: transparent; 
+}

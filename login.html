@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login & Sign Up</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/loginstyle.css">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <div class="container-navbar-menu">
+            <div class="nav-content-1">
+                <div class="nav-logo-img">
+                    <a  href="index.html" id="logo"> <img src="./img/ดีไซน์ที่ยังไม่ได้ตั้งชื่อ-removebg-preview.png" alt=""></a>
+                  </div>
+                <ul class="nav-links">
+                    <li><a href="index.html"><i class="fa-solid fa-house"></i> หน้าแรก</a></li>
+                    <li><a href="aboult_me.html"><i class="fa-solid fa-address-card"></i> เกี่ยวกับเรา</a></li>
+                    <li><a href="contect_us.html"><i class="fa-solid fa-envelope"></i> ติดต่อ</a></li>
+                    <li><a href="login.html"><i class="fa-solid fa-user"></i> เข้าสู่ระบบ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form id="signupForm">
+                <h1>Create Account</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your email for registration</span>
+                <input type="text" placeholder="Name" id="newName" />
+                <input type="email" placeholder="Email" id="newMail" />
+                <input type="password" placeholder="Password" id="newPass" />
+                <input type="password" placeholder="Password confirm" id="conPass" />
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form id="signinForm">
+                <h1>Sign in</h1>
+                <div class="social-container">
+                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>or use your account</span>
+                <input type="email" placeholder="Email" id="id_mail" />
+                <input type="password" placeholder="Password" id="id_pass" />
+                <a href="#">Forgot your password?</a>
+                <button type="submit">Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us, please login with your personal info</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Join Us!</h1>
+                    <p>Enter your personal details and start your journey with us</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scriptlogin.js"></script>
+</body>
+</html>
